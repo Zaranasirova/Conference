@@ -1,0 +1,89 @@
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.btn-link {
+  display: block;
+  border: 1px solid transparent;
+  background-color: #1900ff;
+  padding: 15px 35px;
+  color: white;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+.header .container .row {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .row .left-side {
+  display: flex;
+  gap: 10px;
+}
+.header .container .row .left-side .logo-side h1 {
+  color: #4867c0;
+}
+.header .container .row .left-side .logo-side small {
+  color: rgb(141, 139, 139);
+}
+.header .container .row .right-side .list {
+  display: flex;
+  gap: 20px;
+}
+.header .container .row .right-side .list .listItem {
+  width: 100%;
+}
+.header .container .row .right-side .list .listItem img {
+  width: 15px;
+}
+.header .container .row .right-side .list .listItem img:hover {
+  background-color: blue;
+  transition: all 0.3s;
+}
+
+.navBar {
+  background-color: #f3f7f9;
+}
+.navBar .container nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar .container nav .navList {
+  display: flex;
+  gap: 50px;
+}
+.navBar .container nav .navList .navlist-item a {
+  color: #000000;
+  font-size: 20px;
+}
+.navBar .container nav .navList .navlist-item a:hover {
+  border: 1px solid blue;
+  padding: 36px 5px;
+  background-color: #1900ff;
+}
+.navBar .container nav .btn {
+  display: flex;
+  gap: 30px;
+}
+.navBar .container nav .btn .btn-icon {
+  padding-top: 20px;
+}
+
+@media (max-width: 1050px) {
+  .navBar {
+    display: none;
+  }
+  .header .container .row .right-side {
+    display: none;
+  }
+  .header .container .row .navbar-menu {
+    display: flex;
+  }
+}/*# sourceMappingURL=header.css.map */

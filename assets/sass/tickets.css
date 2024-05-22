@@ -1,0 +1,29 @@
+.ticket-section {
+  background-image: url("/assets/image/cta_1.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: bottom 70%;
+  background-attachment: scroll;
+  color: #ffffff;
+  margin-top: 100px;
+}
+.ticket-section .ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.ticket-section .ticket .ticket-tittle {
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 150px;
+}
+@media (max-width: 480px) {
+  .ticket-section .ticket .ticket-tittle {
+    font-size: 20px;
+  }
+}
+.ticket-section .ticket .btn-link a {
+  color: #ffffff;
+}/*# sourceMappingURL=tickets.css.map */

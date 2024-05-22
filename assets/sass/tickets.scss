@@ -1,0 +1,30 @@
+.ticket-section {
+  background-image: url("/assets/image/cta_1.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: bottom 70%;
+ background-attachment: scroll;
+  color: #ffffff;
+  margin-top: 100px;
+  .ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    .ticket-tittle {
+      font-size: 40px;
+      font-weight: 500;
+      padding-top: 150px;
+      @media (max-width: 480px) {
+        font-size: 20px;
+      }
+    }
+    .btn-link {
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+}

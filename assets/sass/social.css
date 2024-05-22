@@ -1,0 +1,25 @@
+.social {
+  background-color: rgb(3, 3, 5);
+  color: #ffffff;
+}
+.social .container .social-info {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social .container .social-info .social-left {
+  display: flex;
+  gap: 40px;
+}
+.social .container .social-info .social-left .list {
+  display: flex;
+  gap: 20px;
+}
+.social .container .social-info .social-left .list .listItem img {
+  width: 12px;
+  background-color: #ffffff;
+}
+.social .container .social-info .social-right .social-list .social-listItem {
+  display: flex;
+}/*# sourceMappingURL=social.css.map */

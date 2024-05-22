@@ -1,0 +1,80 @@
+.choose {
+  background-image: url("/assets/image/pricing.jpg");
+  padding-top: 70px;
+}
+.choose .container .mainText {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.choose .container .box-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.choose .container .box-section .card-section {
+  border: 1px solid transparent;
+  border-top: 3px solid blue;
+  background-color: white;
+  width: 34%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 60px;
+}
+.choose .container .box-section .card-section .cardTitle {
+  color: grey;
+}
+.choose .container .box-section .card-section .cardList {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.choose .container .box-section .card-section .square {
+  border: 1px solid orange;
+  border-radius: 100%;
+  background-color: orange;
+  padding: 0px 8px;
+}
+.choose .container .box-section .card-section-blue {
+  border: 1px solid transparent;
+  border-top: 3px solid #4867c0;
+  background-color: #4867c0;
+  width: 34%;
+  z-index: 2;
+  height: 680px;
+  box-shadow: 0px 2px 54px rgba(0, 0, 0, 0.65);
+  margin-top: -40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.choose .container .box-section .card-section-blue .cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.choose .container .box-section .card-section-blue .btn-link {
+  background-color: white;
+  color: blue;
+}
+.choose .container .box-section .card-section-blue .square {
+  border: 1px solid orange;
+  border-radius: 100%;
+  background-color: orange;
+  padding: 0px 8px;
+}/*# sourceMappingURL=choose.css.map */

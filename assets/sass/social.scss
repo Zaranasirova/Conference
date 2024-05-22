@@ -1,0 +1,37 @@
+.social {
+    background-color: rgb(3, 3, 5);
+    color: #ffffff;
+  .container {
+    .social-info{
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .social-left {
+            display: flex;
+            gap: 40px;
+          .list {
+            display: flex;
+            gap: 20px;
+            .listItem {
+              img {
+                width: 12px;
+                background-color: #ffffff;
+             
+              }
+            }
+          }
+        }
+        .social-right{
+            .social-list{
+                .social-listItem{
+                    display: flex;
+                   
+                }
+            }
+        }
+       
+    }
+   
+  }
+}
